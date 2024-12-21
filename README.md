@@ -1,9 +1,5 @@
 # Финальный проект: контейнеры и CI/CD для Kittygram
 ![Static Badge](https://img.shields.io/badge/NatalyaKozarezenko-kittygram_final-kittygram_final)
-![GitHub top language](https://img.shields.io/github/languages/top/NatalyaKozarezenko/Oxygen)
-![GitHub](https://img.shields.io/github/license/NatalyaKozarezenko/kittygram_final)
-![GitHub Repo stars](https://img.shields.io/github/stars/NatalyaKozarezenko/kittygram_final)
-![GitHub issues](https://img.shields.io/github/issues/NatalyaKozarezenko/kittygram_final)
 
 ## Описание проекта
 
