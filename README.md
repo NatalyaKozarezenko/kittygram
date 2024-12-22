@@ -1,5 +1,6 @@
 # Финальный проект: контейнеры и CI/CD для Kittygram
 ![Static Badge](https://img.shields.io/badge/NatalyaKozarezenko-kittygram_final-kittygram_final)
+
 ![example workflow](https://github.com/NatalyaKozarezenko/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание проекта
@@ -19,24 +20,15 @@ Kittygram — социальная сеть для обмена фотограф
 
 ## Стек
 Django
-
 djangorestframework
-
 djoser
-
-gunicorn
-
-psycopg2-binary
-
-Pillow
-
-python-dotenv
-
-pytest
-
-PyYAML
-
 webcolors
+psycopg2-binary
+Pillow
+python-dotenv
+pytest
+PyYAML
+gunicorn
 
 ## 1. Установка проекта
 1.1. Клонируйте репозиторий и перейдите в него:
@@ -175,4 +167,4 @@ USER            - имя пользователя
 ```
 
 ## Автор
-[Наталья Козарезенко](https://github.com/NatalyaKozarezenko/)
+[Наталья Козарезенко](https://github.com/NatalyaKozarezenko/) 
