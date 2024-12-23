@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.9', '3.10']
+        python-version: ['3.8', '3.9', '3.10']
     services:
       postgres:
         image: postgres:13.10
@@ -42,9 +42,9 @@ jobs:
         python manage.py test
   
   build_and_push_to_docker_hub:
+    if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     needs: tests
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: Check out the repo
         uses: actions/checkout@v3
@@ -168,4 +168,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Деплой ${{github.event.commits[0].message}} ${{github.actor}} успешно выполнен! Просмотр коммита https://github.com/${{ github.repository }}/commit/${{github.sha}}.
+        message: Деплой '${{github.event.commits[0].message}}' от ${{github.actor}} успешно выполнен! Посмотреть изменения https://github.com/${{ github.repository }}/commit/${{github.sha}}.

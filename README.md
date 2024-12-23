@@ -1,6 +1,4 @@
 # Финальный проект: контейнеры и CI/CD для Kittygram
-![Static Badge](https://img.shields.io/badge/NatalyaKozarezenko-kittygram_final-kittygram_final)
-
 ![example workflow](https://github.com/NatalyaKozarezenko/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание проекта
