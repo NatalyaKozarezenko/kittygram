@@ -29,7 +29,7 @@ services:
     image: natadocker24/kittygram_gateway
     env_file: .env
     depends_on:
-      - db
+      - backend
     ports:
       - 9000:80
     volumes:
