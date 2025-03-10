@@ -1,4 +1,4 @@
-# Финальный проект: контейнеры и CI/CD для Kittygram
+# Проект "Kittygram"
 ![example workflow](https://github.com/NatalyaKozarezenko/kittygram_final/actions/workflows/main.yml/badge.svg)
 
 ## Описание проекта
